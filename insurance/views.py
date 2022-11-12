@@ -5,8 +5,9 @@ from customer.models import  Customer
 
 
 def home_view(request):
-    return render(request,'insurance/adminbase.html')
+    return render(request,'insurance/index.html')
 def admin_view_customer_view(request):
     customers=Customer.objects.all()
     context={'customers':customers}
     return render(request,'insurance/admin_view_customer.html',context)
+

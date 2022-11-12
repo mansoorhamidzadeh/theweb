@@ -4,5 +4,6 @@ from . import views
 
 
 urlpatterns=[
+    path('api-list/',views.getRoutes),
     path('',views.CustomerApiView.as_view())
 ]

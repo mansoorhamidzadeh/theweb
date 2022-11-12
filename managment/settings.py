@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'customer',
     'insurance',
+    'widget_tweaks'
 ]
 
 MIDDLEWARE = [
